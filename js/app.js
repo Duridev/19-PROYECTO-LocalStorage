@@ -32,6 +32,7 @@ function agregarTweet(e) {
         id: Date.now(),
         tweet: tweet
     }
+    
 
     //Añadiendo al arreglo de tweets
     tweets = [...tweets, tweetObj];
